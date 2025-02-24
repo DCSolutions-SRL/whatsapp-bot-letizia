@@ -58,5 +58,5 @@ $ node letizia-lin.js
 
 ## Creditos
 
-[matuDEV](https://github.com/tutedcs)
-[matutEv](https://github.com/matiasdante)
+* [matuDEV](https://github.com/tutedcs) 🐧
+* [matutEv](https://github.com/matiasdante) 🎮
