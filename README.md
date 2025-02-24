@@ -11,7 +11,6 @@
 <p align="center">
   <a href="#Funciones">Funciones</a> •
   <a href="#Como-se-usa">Como se usa</a> •
-  <a href="#Descargar">Descargar</a> •
   <a href="#Creditos">Creditos</a> •
 </p>
 
