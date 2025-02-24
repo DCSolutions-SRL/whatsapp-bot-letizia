@@ -2,7 +2,7 @@
   <br>
   <a href="http://www.dcs.ar"><img src="https://i.imgur.com/GgjNXNl.png" alt="DCSolutions" width="200"></a>
   <br>
-  WhatsApp Bot para Cotización de Autos
+  WhatsApp Bot para Cotización de Autos - Letizia
   <br>
 </h1>
 
@@ -30,17 +30,33 @@
 
 ## Como se usa
 
+### DEV (🐧): 
 Para clonar este repositorio, vas a necesitar [Git](https://git-scm.com) y [Node.js](https://nodejs.org/en/) instalados en tu PC.
 
 ```bash
 # Clonar el repositorio.
-$ git clone https://github.com/tu_usuario/whatsapp-bot-cotizacion.git
+$ git clone https://github.com/DCSolutions-SRL/whatsapp-bot-letizia.git
 
 # Ir al repositorio
-$ cd whatsapp-bot-cotizacion
+$ cd whatsapp-bot-letizia
 
 # Instalar dependencias
-$ npm install
+$ npm install whatsapp-web.js qrcode-terminal puppeteer
+$ bash requirements.sh
 
 # Iniciar el bot
-$ node index.js
+$ node letizia-lin.js
+```
+### PRD (🛜)
+
+```bash
+# Descargar la ultima release del programa.
+* Ve a las releses del repositorio
+* Descarga la ultima release
+* Ejecuta el archivo letizia.exe
+```
+
+## Creditos
+
+[matuDEV](https://github.com/tutedcs)
+[matutEv](https://github.com/matiasdante)
