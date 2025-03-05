@@ -1,0 +1,24 @@
+{
+  "initialMessage": "cotizar auto",
+  "steps": [
+    { 
+      "waitForMultiple": [
+        { "type": "media", "mediaType": "sticker", "errorMessage": "No ingresó Sticker Letizia" },
+        { "type": "text", "value": "¿Tenés la patente del auto?" }
+      ],
+      "respond": "SI"
+    },
+    { "waitFor": { "type": "text", "text": "¿Cuál es la patente de tu vehículo?" }, "respond": "AA877WW" },
+    { "waitFor": { "type": "text", "text": "¿Son correctos estos datos?" }, "respond": "NO" },
+    { "waitFor": { "type": "text", "text": "Marca" }, "respond": "Ford" },
+    { "waitFor": { "type": "text", "text": "Año" }, "respond": "2020" },
+    { "waitFor": { "type": "text", "text": "Modelo" }, "respond": "KA" },
+    { "waitFor": { "type": "text", "text": "¿Cuál de estas versiones de vehículo es el tuyo?" }, "respond": "1" },
+    { "waitFor": { "type": "text", "text": "¿El vehículo cuenta con GNC?" }, "respond": "SI" },
+    { "waitFor": { "type": "text", "text": "¿Cuál es el uso que le das a tu auto?" }, "respond": "SI" },
+    { "waitFor": { "type": "text", "text": "¿Cuál es tu código postal?" }, "respond": "1405" },
+    { "waitFor": { "type": "media", "mediaType": "image", "errorMessage": "No ingresó documentación" } },
+    { "delay": 5000 },
+    { "send": "empezar" }
+  ]
+}

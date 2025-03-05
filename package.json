@@ -1,18 +1,16 @@
 {
-  "name": "letizia",
+  "name": "letizia-monitor",
   "version": "1.0.0",
-  "description": "",
-  "main": "letizia.js",
+  "description": "Monitor sintético para chatbot Letizia en WhatsApp",
+  "main": "main.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node main.js",
+    "test": "node main.js --test",
+    "debug": "node debug.js"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
   "dependencies": {
-    "puppeteer": "^24.2.1",
-    "puppeteer-core": "^24.2.1",
+    "dotenv": "^16.0.3",
     "qrcode-terminal": "^0.12.0",
-    "whatsapp-web.js": "^1.23.0"
+    "whatsapp-web.js": "^1.19.5"
   }
 }
