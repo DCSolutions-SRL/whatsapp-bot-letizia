@@ -64,7 +64,7 @@ letizia-monitor/
 ├── stop.sh                # Script para detener el servicio
 ├── status.sh              # Script para verificar el estado
 ├── monitor-service.sh     # Script de monitoreo con reinicio automático
-└── install-dependencies.sh # Instalador de dependencias
+└── requirements.sh        # Instalador de dependencias
 ```
 
 ## Instalación
