@@ -7,7 +7,7 @@ const config = require('./config');
 // Verificar si se está ejecutando en modo test
 const isTestMode = process.argv.includes('--test');
 
-// Variables globales
+// Variables globales 
 let monitor = null;
 
 // Verificar la configuración

@@ -19,6 +19,6 @@
     { "waitFor": { "type": "text", "text": "¿Cuál es tu código postal?" }, "respond": "1405" },
     { "waitFor": { "type": "media", "mediaType": "image", "errorMessage": "No ingresó documentación" } },
     { "delay": 5000 },
-    { "send": "empezar" }
+    { "send": "empezar" } 
   ]
 }

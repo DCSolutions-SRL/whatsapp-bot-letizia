@@ -15,7 +15,7 @@ command_exists() {
 PACKAGES=(
   "libatk1.0-0"
   "libx11-xcb1"
-  "libnss3"
+  "libnss3" 
   "libxcomposite1"
   "libxcursor1"
   "libxdamage1"

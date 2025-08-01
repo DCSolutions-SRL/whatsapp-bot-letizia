@@ -17,7 +17,7 @@ fi
 # Leer el PID
 PID=$(cat "$PID_FILE")
 
-# Verificar si el proceso aún está en ejecución
+# Verificar si el proceso aún está en ejecución 
 if ! ps -p "$PID" > /dev/null; then
     echo "El proceso con PID $PID ya no está en ejecución."
     rm "$PID_FILE"

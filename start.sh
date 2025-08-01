@@ -30,7 +30,7 @@ echo "Iniciando el monitor de Letizia en segundo plano..."
 # Iniciar el proceso en segundo plano, redirigiendo la salida a logs
 nohup node main.js >> "$DAEMON_LOG" 2>&1 &
 
-# Guardar el PID del proceso
+# Guardar el PID del proceso 
 PID=$!
 echo $PID > "$PID_FILE"
 

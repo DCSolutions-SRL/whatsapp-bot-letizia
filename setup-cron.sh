@@ -24,7 +24,7 @@ chmod +x "$MONITOR_SCRIPT"
 # Crear entrada de crontab para ejecutar el monitor cada 5 minutos
 CRON_JOB="*/5 * * * * $MONITOR_SCRIPT > /dev/null 2>&1"
 
-# Verificar si la entrada ya existe en crontab
+# Verificar si la entrada ya existe en crontab 
 if crontab -l 2>/dev/null | grep -q "$MONITOR_SCRIPT"; then
     echo "La tarea cron para monitoreo ya está configurada."
 else

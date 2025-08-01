@@ -12,7 +12,7 @@ if [ -f ".env" ]; then
     source <(grep -v '^#' .env | sed -E 's/(.*)=(.*)/export \1="\2"/')
 fi
 
-# Variables para email (pueden definirse en .env)
+# Variables para email (pueden definirse en .env) 
 ALERT_EMAIL_TO=mdantesarco@dcs.ar
 ALERT_EMAIL_ENABLED=true
 

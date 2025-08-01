@@ -2,7 +2,7 @@
  * Script para verificar la configuración y probar la conexión a WhatsApp
  * sin realizar pruebas completas
  * 
- * Ejecutar con: node debug.js
+ * Ejecutar con: node debug.js 
  */
 
 require('dotenv').config();

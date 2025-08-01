@@ -22,7 +22,7 @@ show_memory_usage() {
     fi
 }
 
-# Función para mostrar el uso de CPU
+# Función para mostrar el uso de CPU 
 show_cpu_usage() {
     PID=$1
     # Obtener el uso de CPU

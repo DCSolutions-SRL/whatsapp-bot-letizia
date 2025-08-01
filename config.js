@@ -14,4 +14,4 @@ const CONFIG = {
   testSchedule: process.env.TEST_SCHEDULE || 'halfhourly' // 'hourly' o 'halfhourly'
 };
 
-module.exports = CONFIG;
+module.exports = CONFIG; 
